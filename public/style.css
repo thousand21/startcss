@@ -1,0 +1,308 @@
+@media (min-width:360px) and (max-width:600px){
+    .headertop{
+        display: flex;
+        background-color: slategray;
+        align-items: center;
+        height: 80px;
+        text-decoration: none;
+        
+        
+    }
+    .headertop>div>a{
+        text-decoration: none;
+        color: white; 
+        
+    }
+    .headertop>div>a:hover{
+        background-color: thistle;
+    }
+    .headertop>div{
+        width: 50%;
+        font-size: 75%;
+        /* justify-content: center; */
+        text-align: center;
+        
+                
+    }
+    .headertop>:nth-child(2)>ul{
+        display: flex;
+        list-style-type: none; 
+        
+        justify-content: flex-start;     
+    }
+    .headertop>:nth-child(2)>ul>li>a{
+        text-decoration: none;
+        color: white;
+        font-size: 75%; 
+    }
+    .headertop>:nth-child(2)>ul>li{
+        margin-right: 5%;
+    }
+    .headertop>:nth-child(2)>ul>li:hover{
+        background-color: thistle;
+    }
+    .banner{
+        display:flex;
+        justify-content: center;
+        background-color: rgba(255, 4, 4, 0.733)
+    }
+    .avatar{
+        text-align: center;
+        
+        padding: 10%;
+        color: white;
+    }
+    
+    .avatar>img{
+        width: 150px;
+        height: 150px;
+        
+    }
+    #portfolio>div>div>a>img{
+        height: 80px;
+    }
+    #portfolio>div{
+        display: flex;
+    }
+    #portfolio>div{
+        display: flex;
+        justify-content: center;
+       /*  max-width: max-content; */
+        
+    }
+    #portfolio>div>div{
+        display: flex;
+        /* justify-content:space-around; */
+        /* border: solid; */
+        padding: 5px;
+    }
+    #about{
+        background-color: rgba(255, 4, 4, 0.733);
+        color: white;
+    }
+    #about>div>h1{
+        text-align: center;
+        padding-top: 20px;
+    }
+    #textep{
+        display: flex;
+        
+    }
+    #textep>div{
+        width: 50%;
+    }
+    #textep>:nth-child(1){
+        display: flex;
+        justify-content: flex-end;
+    }
+    #textep>div>p{
+        width: 50%;
+    }
+}
+
+@media (min-width:601px) and (max-width:1023px){
+    .headertop{
+        display: flex;
+        background-color: slategray;
+        align-items: center;
+        height: 80px;
+        text-decoration: none;
+        
+        
+    }
+    .headertop>div>a{
+        text-decoration: none;
+        color: white; 
+        
+    }
+    .headertop>div>a:hover{
+        background-color: thistle;
+    }
+    .headertop>div{
+        width: 50%;
+        
+        /* justify-content: center; */
+        text-align: center;
+        
+                
+    }
+    .headertop>:nth-child(2)>ul{
+        display: flex;
+        list-style-type: none; 
+        
+        justify-content: flex-start;     
+    }
+    .headertop>:nth-child(2)>ul>li>a{
+        text-decoration: none;
+        color: white; 
+    }
+    .headertop>:nth-child(2)>ul>li{
+        margin-right: 5%;
+    }
+    .headertop>:nth-child(2)>ul>li:hover{
+        background-color: thistle;
+    }
+    .banner{
+        display:flex;
+        justify-content: center;
+        background-color: rgba(255, 4, 4, 0.733)
+    }
+    .avatar{
+        text-align: center;
+        font-size: 180%;
+        padding: 10%;
+        color: white;
+    }
+    
+    .avatar>img{
+        width: 150px;
+        height: 150px;
+        
+    }
+    #portfolio>div>div>a>img{
+        height: 100px;
+    }
+    #portfolio>div{
+        display: flex;
+    }
+    #portfolio>div{
+        display: flex;
+        justify-content: center;
+       /*  max-width: max-content; */
+        
+    }
+    #portfolio>div>div{
+        display: flex;
+        /* justify-content:space-around; */
+        /* border: solid; */
+        padding: 5px;
+    }
+    #about{
+        background-color: rgba(255, 4, 4, 0.733);
+        color: white;
+    }
+    #about>div>h1{
+        text-align: center;
+        padding-top: 20px;
+    }
+    #textep{
+        display: flex;
+        
+    }
+    #textep>div{
+        width: 50%;
+    }
+    #textep>:nth-child(1){
+        display: flex;
+        justify-content: flex-end;
+    }
+    #textep>div>p{
+        width: 50%;
+    }
+}
+
+@media (min-width:1024px){
+    .headertop{
+        display: flex;
+        background-color: slategray;
+        align-items: center;
+        height: 80px;
+        text-decoration: none;
+        
+        
+    }
+    .headertop>div>a{
+        text-decoration: none;
+        color: white; 
+        
+    }
+    .headertop>div>a:hover{
+        background-color: thistle;
+    }
+    .headertop>div{
+        width: 50%;
+        
+        /* justify-content: center; */
+        text-align: center;
+        
+                
+    }
+    .headertop>:nth-child(2)>ul{
+        display: flex;
+        list-style-type: none; 
+        
+        justify-content: flex-start;     
+    }
+    .headertop>:nth-child(2)>ul>li>a{
+        text-decoration: none;
+        color: white; 
+    }
+    .headertop>:nth-child(2)>ul>li{
+        margin-right: 5%;
+    }
+    .headertop>:nth-child(2)>ul>li:hover{
+        background-color: thistle;
+    }
+    .banner{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(255, 4, 4, 0.733)
+    }
+    
+    .avatar{
+        text-align: center;
+        font-size: 160%;
+        padding: 10%;
+        color: white;
+    }
+    
+    .avatar>img{
+        width: 150px;
+        height: 150px;
+        
+    }
+    #portfolio>div>div>a>img{
+        height: 100px;
+    }
+    #portfolio>div{
+        display: flex;
+    }
+    #portfolio>div{
+        display: flex;
+        justify-content: center;
+       /*  max-width: max-content; */
+        
+    }
+    #portfolio>div>div{
+        display: flex;
+        /* justify-content:space-around; */
+        /* border: solid; */
+        padding: 5px;
+    }
+    #about{
+        background-color: rgba(255, 4, 4, 0.733);
+        color: white;
+    }
+    #about>div>h1{
+        text-align: center;
+        padding-top: 20px;
+    }
+    #textep{
+        display: flex;
+        
+    }
+    #textep>div{
+        width: 50%;
+    }
+    #textep>:nth-child(1){
+        display: flex;
+        justify-content: flex-end;
+    }
+    #textep>div>p{
+        width: 50%;
+    }
+    #contact>:nth-child(2){
+        
+    }
+}
